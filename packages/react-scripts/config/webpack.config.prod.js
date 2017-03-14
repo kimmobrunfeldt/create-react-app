@@ -172,7 +172,7 @@ module.exports = {
         loader: 'babel-loader',
         // @remove-on-eject-begin
         options: {
-          babelrc: false,
+          babelrc: true,
           presets: [require.resolve('babel-preset-react-app')],
         },
         // @remove-on-eject-end
